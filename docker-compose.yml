@@ -1,0 +1,7 @@
+version: '2'
+services:
+  discovery-server:
+    image: cloudestimator/discovery-server:${BUILD_NAME}
+    mem_limit: 1000000000
+    ports:
+       - "8761:8761"

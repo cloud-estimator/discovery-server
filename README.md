@@ -1,1 +1,1 @@
-# discovery-service
+# discovery-server
