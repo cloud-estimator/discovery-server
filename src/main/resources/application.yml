@@ -1,6 +1,9 @@
 server:
   port: 8761
   
+spring:
+  output.ansi.enabled: always # Show colored output
+  
 eureka:
   client:
     register-with-eureka: false
